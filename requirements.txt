@@ -1,0 +1,29 @@
+# ============================================================
+# CareerPilot AI - Python Dependencies
+# Install with: pip install -r requirements.txt
+# ============================================================
+
+# Core Web UI
+gradio>=4.20.0
+
+# LLM Providers (install both so either key works)
+openai>=1.10.0
+google-generativeai>=0.4.0
+
+# RAG & Embeddings
+sentence-transformers>=2.3.0   # Local embedding model (no API key needed)
+faiss-cpu>=1.7.4               # Vector similarity search
+numpy>=1.24.0                  # Numerical operations
+
+# Document Processing
+PyPDF2>=3.0.0                  # PDF text extraction
+python-docx>=0.8.11            # DOCX text extraction (bonus support)
+
+# Utilities
+python-dotenv>=1.0.0           # Load .env file
+pandas>=2.0.0                  # Display progress tables in Gradio
+
+# Built-in (no install needed):
+# sqlite3   - Progress tracking database
+# re        - Regex for score extraction
+# datetime  - Timestamps
