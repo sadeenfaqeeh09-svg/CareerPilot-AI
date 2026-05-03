@@ -236,3 +236,9 @@ MIT — Free to use, modify, and share for educational purposes.
 ---
 
 *Made with ❤️ for the AI/RAG Bootcamp | Python + Gradio + LLMs*
+
+---
+
+## Sadeen J. Faqih
+## Nadeen A. Jaber
+
